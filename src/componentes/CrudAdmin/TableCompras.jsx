@@ -7,7 +7,7 @@ export const TableCompras = () => {
   const [ventas, setVentas] = useState([]);
 
   const compras = async () => {
-    const baseUrl = import.meta.env.VITE_API_URL_VENTAS || "http://localhost:8080";
+    const baseUrl = import.meta.env.VITE_API_URL_VENTAS || "";
     await axios.get(`${baseUrl}/api/v1/ventas`, {
       headers:{
         'Content-Type': 'application/json',

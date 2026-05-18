@@ -7,7 +7,7 @@ export const TableDespachos = () => {
   const [despachos, setDespachos] = useState([]);
 
   const despacho = async () => {
-    const baseUrl = import.meta.env.VITE_API_URL_DESPACHOS || "http://localhost:8081";
+    const baseUrl = import.meta.env.VITE_API_URL_DESPACHOS || "";
     await axios
       .get(`${baseUrl}/api/v1/despachos`, {
         headers:{
