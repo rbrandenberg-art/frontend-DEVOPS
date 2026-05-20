@@ -9,7 +9,7 @@ function Navbar() {
         <li>
           <a
             href="#"
-            className="block font-bold py-2 px-3 hover:bg-teal-700 rounded"
+            className="block font-bold py-2 px-3 hover:bg-red-700 rounded"
           >
             Usuarios
           </a>
@@ -17,7 +17,7 @@ function Navbar() {
         <li>
           <a
             href="#"
-            className="block font-bold py-2 px-3 hover:bg-teal-700 rounded"
+            className="block font-bold py-2 px-3 hover:bg-red-700 rounded"
           >
             Productos
           </a>
