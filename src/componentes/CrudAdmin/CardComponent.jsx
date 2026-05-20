@@ -8,7 +8,7 @@ export const CardComponent = ({ title, description, buttonText, onClick }) => {
           {title}
         </h5>
       </a>
-      <p className="mb-5 font-normal text-gray-700 dark:text-gray-400">
+      <p className="mb-5 font-normal text-red-700 dark:text-gray-400">
         {description}
       </p>
       <div className="flex justify-center">
